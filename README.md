@@ -81,7 +81,8 @@ An interactive dashboard with a data model, DAX measures, KPI cards, charts and 
 <!-- Add your dashboard screenshots below -->
 ![Dashboard Overview](images/dashboard-overview.png)
 
-📄 CEO Report: [`report/Phase4_Report_Vaishali.docx`](report/Phase4_Report_Vaishali.docx)
+ 📄 CEO Report: [`Phase4_Report_Vaishali.docx`](Phase4_Report_Vaishali.docx)
+ 
 
 ## 💡 Key Insights
 
@@ -108,11 +109,13 @@ Power BI (DAX), SQL, Python (Pandas, Matplotlib), Excel
 ## 📁 Repository Structure
 
 ```
-IndiaKart-ECommerce-Analytics/
-├── notebooks/   # Phase 1 cleaning, Phase 2 EDA, Phase 3 KPIs, SQL analysis
-├── powerbi/     # Power BI dashboard (.pbix)
-├── report/      # CEO report
-├── images/      # Dashboard and chart screenshots
+indiakart-analytics/
+├── phase1-datacleaning-vaishali.ipynb   # Data cleaning & quality checks
+├── phase2-eda-vaishali.ipynb            # Exploratory data analysis
+├── phase3-kpis-vaishali.ipynb           # KPI calculations
+├── sql-analysis-vaishali.ipynb          # SQL analysis (12 queries + my own)
+├── Phase4_Dashboard_Vaishali.pbix       # Power BI dashboard
+├── Phase4_Report_Vaishali.docx          # CEO report
 └── README.md
 ```
 
