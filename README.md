@@ -76,12 +76,26 @@ Profiled all 8 tables and checked nulls, duplicates, data types, outliers and ta
 
 ## 📊 Phase 4 – Power BI Dashboard & CEO Report
 
-An interactive dashboard with a data model, DAX measures, KPI cards, charts and slicers, plus an executive report for the CEO.
+A 5-page interactive Power BI dashboard (Revenue Overview, Category Performance, Customer Insights, Operations, Inventory Alert) with KPI cards, date and segment slicers, and a written insight on every page.
 
-<!-- Add your dashboard screenshots below -->
-![Dashboard Overview](images/dashboard-overview.png)
+### Revenue Overview
+![Revenue Overview](dashboard-overview.png)
 
- 📄 CEO Report: [`Phase4_Report_Vaishali.docx`](Phase4_Report_Vaishali.docx)
+Sales have stayed flat for two years: ₹157.1 Cr in Year 2 vs ₹157.7 Cr in Year 1 (−0.4%). There is also no Diwali spike: October and November make up 16.8% of orders, almost the same as an even share (16.7%). *(June 2023 and June 2025 are partial months, so GMV looks lower there.)*
+
+### Category Performance
+![Category Performance](dashboard-category.png)
+
+Electronics earns 57.4% of revenue, followed by Sports & Fitness at 17.4%. Grocery, Books and Beauty & Health together bring only about 2.4%. Return rates are almost the same across categories (about 7.6%–8.3%).
+
+### Operations
+![Operations](dashboard-operations.png)
+
+The payment failure rate is 3.50% vs the 2% target. All 1,748 failed payments ended in cancelled orders (about ₹10.7 Cr). Razorpay has the highest failure rate (3.80%), but every gateway is above 2%, so the problem is spread across gateways.
+
+The **Customer Insights** and **Inventory Alert** pages are available in the Power BI file (`Phase4_Dashboard_Vaishali.pbix`).
+
+📄 CEO Report: [`Phase4_Report_Vaishali.docx`](Phase4_Report_Vaishali.docx)
  
 
 ## 💡 Key Insights
@@ -91,7 +105,7 @@ An interactive dashboard with a data model, DAX measures, KPI cards, charts and 
 3. **Failed payments are costing money.** All **1,748** failed payments ended as cancelled orders worth about **₹10.7 Cr**, which explains about **29%** of all cancellations.
 4. **Premium customers are the most valuable.** They are only 15% of customers but place **8.6 orders each** vs 5.7 for Regular customers.
 5. **Two states drive the business.** Uttar Pradesh and Maharashtra together bring about **35%** of orders.
-6. **Returns are not a category problem.** Return rates are similar across all categories (about 20–21%), so the causes are likely operational: quality, packaging and delivery. About 56% of returns are for reasons the company can control (damaged, wrong or defective products).
+6. **Returns are not a category problem.** Return rates are similar across all categories (about 7.6% – 8.3%), so the causes are likely operational: quality, packaging and delivery. About 56% of returns are for reasons the company can control (damaged, wrong or defective products).
 
 ## ✅ Recommendations
 
